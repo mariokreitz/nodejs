@@ -1,0 +1,20 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "static": "serve -p 5050 static"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "linuxfoundation.org",
+  "license": "MIT",
+  "description": "A sample Node.js project",
+  "dependencies": {
+    "fastify": "^5.1.0",
+    "fastify-cli": "^7.0.1",
+    "serve": "^14.2.4"
+  }
+}
